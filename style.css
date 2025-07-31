@@ -1,0 +1,645 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html{
+        scroll-behavior: smooth;
+        }
+
+        .hero_container {
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            height: 60vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            padding: 0px;
+            background-image: url(./img/hero_bg.jpg);
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 120px;
+            height: 100vh;
+
+        }
+
+        .top_statement {
+            font-family: "Raleway", sans-serif;
+            font-size: 24px;
+            font-weight: normal;
+            margin-top: 0px;
+        }
+
+        .headline {
+            font-family: "Raleway", sans-serif;
+            font-size: 96px;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+
+        .header {
+            position: absolute;
+            top: 64px;
+            height: 64px;
+            left: 160px;
+            right: 160px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .logo {
+            width: 64px;
+            height: 64px;
+
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .menu_top {
+            font-family: "Raleway", sans-serif;
+            color: white;
+            font-size: 24px;
+            margin-right: 32px;
+            text-decoration: none;
+        }
+
+        .menu_top:hover {
+            color: #9f0908;
+        }
+
+        .phone_img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .phone_container {
+            font-family: "Raleway", sans-serif;
+            font-size: 24px;
+            color: white;
+            background-color: #9f0908;
+            border-radius: 10px;
+            border: 2px solid #ffffff;
+            text-decoration: none;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .phone_container:hover {
+            background-color: #f30606;
+        }
+
+        .how2order {
+            margin-bottom: 120px;
+            margin-left: 160px;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 160px;
+        }
+
+        .subtitle {
+            font-family: "Raleway", sans-serif;
+            font-size: 80px;
+            color: #9f0908;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 64px;
+        }
+
+        .how2order_text {
+            font-family: "Economica", sans-serif;
+            font-size: 56px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .how2order_img {
+            width: 128px;
+            height: 128px;
+            margin-bottom: 16px;
+        }
+
+        .order_step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .our_menu {
+            background-image: url(./img/section_our_menu_bg.jpg);
+            padding-top: 120px;
+            padding-bottom: 120px;
+            padding-left: 160px;
+            padding-right: 160px;
+            margin-bottom: 120px;
+            background-size: cover;
+
+
+        }
+
+        .our_menu_headline {
+            font-family: "Raleway", sans-serif;
+            font-size: 80px;
+            font-weight: bold;
+            color: #9f0908;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 64px;
+        }
+
+        .dish_img_left {
+            width: 352px;
+            height: 352px;
+            padding-right: 80px;
+        }
+
+        .dish_img_right {
+            width: 352px;
+            height: 352px;
+            padding-left: 80px;
+        }
+
+        .dish_headline {
+            font-family: "Economica", sans-serif;
+            font-size: 56px;
+            font-weight: bold;
+            padding-bottom: 16px;
+        }
+
+        .dish_left {
+            display: flex;
+            align-items: center;
+            padding-bottom: 56px;
+
+        }
+
+        .dish_right{
+            display: flex;
+            align-items: center;
+            padding-bottom: 56px;
+            justify-content: flex-start;
+            flex-direction: row-reverse;
+        }
+
+        .table_text {
+            font-family: "Raleway", sans-serif;
+            font-size: 32px;
+            font-weight: bold;
+            color: #675e54;
+            padding-bottom: 8px;
+        }
+
+        .headline_location{
+           font-family: "Raleway", sans-serif;
+           font-size: 80px;
+           font-weight: bold;
+           display: flex;
+           justify-content: center; 
+           color: #9f0908;
+           margin-bottom: 8px;
+            margin-left: 160px;
+            margin-right: 160px
+        }
+
+        .map_marker_img{
+            width: 24px;
+            height: 24px;
+        }
+
+        .street_name{
+            font-family: "Raleway", sans-serif;
+            font-size: 24px;
+            margin-bottom: 64px;
+            display: flex;
+            justify-content: center;
+            margin-left: 160px;
+            margin-right: 160px;
+        }
+
+        .google_maps{
+            width: 100%;
+            height: 500px;
+            margin-bottom: 8px;
+        }
+
+        .footer{
+            background-color: black;
+            height: 136px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .name_and_logo{
+            margin-left: 160px;
+            height: 44px;
+        }
+
+        .social_media{
+            margin-right: 160px;
+        }
+
+        .footer_smartphone_logo{
+            display: none;
+        }
+
+        .social_media_logo{
+            width: 40px;
+            height: 40px;
+        }
+
+        @media(max-width:1040px){
+            .header{
+                left: 24px;
+                right: 24px;
+                top: 24px; 
+            }
+        }
+
+        @media(max-width:770px){   /* Teblet-Mobile */ 
+            .hero_container{
+                margin-bottom: 96px;
+            }
+
+            .menu_top{
+                display: none;
+            }
+
+            .headline{
+                font-size: 78px;
+            }
+
+            .top_statement{
+                font-size: 20px;
+            }
+
+            .phone_img{
+                width: 20px;
+                height: 20px;
+            }
+
+            .phone_container{
+                font-size: 20px;
+            }
+
+            .how2order{
+                margin-left: 24px;
+                margin-right: 24px;
+                margin-bottom: 96px;
+            }
+
+            .subtitle{
+                font-size: 64px;
+            }
+
+            .how2order_text{
+                font-size: 32px;
+                margin-bottom: 48px;
+            }
+
+            .how2order_img{
+                width: 112px;
+                height: 112px;
+                margin-bottom: 8px;
+            }
+
+            .our_menu{
+                padding-top: 96px;
+                padding-bottom: 96px;
+                padding-left: 24px;
+                padding-right: 24px;
+                margin-bottom: 96px;
+            }
+
+            .our_menu_headline{
+                font-size: 64px;
+                margin-bottom: 48px;
+            }
+
+            .dish_img_left{
+                padding-right: 24px;
+            }
+
+            .dish_img_right{
+                padding-left: 24px;
+            }
+
+            .dish_headline{
+                font-size: 32px;
+                font-weight: bold;
+            }
+
+            .table_text{
+                font-size: 24px;
+            }
+
+            .headline_location{
+                font-size: 64px;
+                margin-left: 24px;
+                margin-right: 24px;
+            }
+
+            .street_name{
+                font-size: 20px;
+                margin-bottom: 48px;
+            }
+
+            .name_and_logo{
+                margin-left: 24px;
+            }
+
+            .footer_smartphone_logo{
+                display: none;
+            }
+
+            .social_media{
+                margin-right: 24px;
+            }
+        }
+
+        @media(max-width:600px){   /* Smartphone-Mobile */
+            .header{
+                left: 16px;
+                right: 16px;
+                top: 16px;
+            }
+
+            .hero_container{
+                margin-bottom: 72px;
+            }
+
+            .headline{
+                font-size: 44px;
+            }
+
+            .top_statement{
+                font-size: 16px;
+            } 
+            
+            .phone_img{
+                width: 16px;
+                height: 16px;
+            }
+
+            .phone_container{
+                font-size: 16px;
+            }
+
+            .how2order{
+                margin-left: 16px;
+                margin-right: 16px;
+                margin-bottom: 32px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .subtitle{
+                font-size: 40px;
+            }
+
+            .how2order_text{
+                font-size: 32px;
+                margin-bottom: 32px;
+            }
+
+            .how2order_img{
+                width: 112px;
+                height: 112px;
+                margin-bottom: 8px;
+            }
+
+            .our_menu{
+                padding-top: 72px;
+                padding-bottom: 72px;
+                padding-left: 16px;
+                padding-right: 16px;
+                margin-bottom: 72px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .our_menu_headline{
+                font-size: 40px;
+                margin-bottom: 40px;
+            }
+
+            .dish_left{
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+            }
+
+            .dish_img_left{
+                padding-right: 0px;
+                height: 352;
+                width: 352
+            }
+
+            .dish_right{
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+            }
+
+            .dish_img_right{
+                padding-left: 0px;
+                height: 352;
+                width: 352
+                
+            }
+
+            .dish_headline{
+                font-size: 32px;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+            }
+
+            .table_text{
+                font-size: 24px;
+            }
+
+            .headline_location{
+                font-size: 40px;
+                margin-left: 16px;
+                margin-right: 16px;
+            }
+
+            .street_name{
+                font-size: 16px;
+                margin-bottom: 40px;
+                margin-right: 16px;
+                margin-left: 16px;
+            }
+
+            .map_marker_img{
+                width: 16px;
+                height: 16px;
+            }
+
+             .name_and_logo{
+                display: none;
+            }
+
+            .footer_smartphone_logo{
+                display: flex;
+                height: 40px;
+                margin-left: 16px;
+            }
+
+            .social_media{
+                margin-right: 16px;
+            }
+        }
+
+         @media(max-width:375px){   /* Smartphone-Mobile 320px */
+            .header{
+                left: 8px;
+                right: 8px;
+                top: 8px;
+            }
+
+            .hero_container{
+                margin-bottom: 50px;
+            }
+
+            .headline{
+                font-size: 35px;
+            }
+
+            .top_statement{
+                font-size: 12px;
+            } 
+            
+            .phone_img{
+                width: 16px;
+                height: 16px;
+            }
+
+            .phone_container{
+                font-size: 16px;
+            }
+
+            .how2order{
+                margin-left: 8px;
+                margin-right: 8px;
+                margin-bottom: 16px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .subtitle{
+                font-size: 35px;
+            }
+
+            .how2order_text{
+                font-size: 30px;
+                margin-bottom: 16px;
+            }
+
+            .how2order_img{
+                width: 112px;
+                height: 112px;
+                margin-bottom: 8px;
+            }
+
+            .our_menu{
+                padding-top: 50px;
+                padding-bottom: 50px;
+                padding-left: 8px;
+                padding-right: 8px;
+                margin-bottom: 50px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .our_menu_headline{
+                font-size: 35px;
+                margin-bottom: 30px;
+            }
+
+            .dish_left{
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+            }
+
+            .dish_img_left{
+                padding-right: 0px;
+                height: 255px;
+                width: 255px;
+            }
+
+            .dish_right{
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+            }
+
+            .dish_img_right{
+                padding-left: 0px;
+                height: 255px;
+                width: 255px;
+                
+            }
+
+            .dish_headline{
+                font-size: 30px;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+            }
+
+            .table_text{
+                font-size: 16px;
+
+            }
+
+            .dish_price{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+
+            .headline_location{
+                font-size: 35px;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+
+            .street_name{
+                font-size: 16px;
+                margin-bottom: 40px;
+                margin-right: 8px;
+                margin-left: 8px;
+            }
+
+            .map_marker_img{
+                width: 16px;
+                height: 16px;
+            }
+
+             .name_and_logo{
+                display: none;
+            }
+
+            .footer_smartphone_logo{
+                display: flex;
+                height: 40px;
+                margin-left: 16px;
+            }
+
+            .social_media{
+                margin-right: 16px;
+            }
+        }
