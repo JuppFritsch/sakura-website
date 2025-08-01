@@ -195,6 +195,23 @@
             font-weight: bold;
             color: #675e54;
             padding-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .table_info{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+
+        .dish_price{
+            width: 332px;
+            height: 223px;
+            display: flex;
+         
+            flex-direction: column;
         }
 
         .headline_location{
@@ -263,15 +280,12 @@
                 right: 24px;
                 top: 24px; 
             }
+
         }
 
-        @media(max-width:770px){   /* Teblet-Mobile */ 
+        @media(max-width:1040px){   /* Teblet-Mobile */ 
             .hero_container{
                 margin-bottom: 96px;
-            }
-
-            .menu_top{
-                display: none;
             }
 
             .headline{
@@ -363,6 +377,13 @@
 
             .social_media{
                 margin-right: 24px;
+            }
+        }
+
+        @media(max-width:850px){
+            
+            .menu_top{
+                display: none;
             }
         }
 
@@ -460,8 +481,6 @@
             .dish_headline{
                 font-size: 32px;
                 font-weight: bold;
-                display: flex;
-                justify-content: center;
             }
 
             .table_text{
@@ -595,12 +614,14 @@
             .dish_headline{
                 font-size: 30px;
                 font-weight: bold;
-                display: flex;
-                justify-content: center;
+                margin-left: 8px;
+                margin-right: 8px;
             }
 
             .table_text{
                 font-size: 16px;
+                padding-left: 8px;
+                padding-right: 8px;
 
             }
 
@@ -608,8 +629,9 @@
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
+                width: 304px;
+                height: 223px;
             }
-
 
             .headline_location{
                 font-size: 35px;
