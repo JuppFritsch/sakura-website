@@ -55,11 +55,6 @@ Telefon: [017654564534](tel:017654564534)
 - **Typografie**: Raleway & Economica
 - **Stil**: Minimalistisch mit japanischen Elementen
 
-## 📞 Kontakt & Social Media
-
-- **Telefon**: [017654564534](tel:017654564534)
-- **Social Media**: Facebook, Instagram, TripAdvisor
-
 ---
 
 **Entwickelt von**: [@JuppFritsch](https://github.com/JuppFritsch)
